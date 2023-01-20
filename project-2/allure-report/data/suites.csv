@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jan 20 14:16:10 GET 2023","Fri Jan 20 14:16:13 GET 2023","2458","Default Suite","project-2","TestClass","TestClass","searchWithPriceRange","Price range search","Test Description: test sets min and max price and searches results, then checks that output prices are inside the range"
+"passed","Fri Jan 20 14:16:14 GET 2023","Fri Jan 20 14:16:16 GET 2023","2490","Default Suite","project-2","TestClass","TestClass","sortAndCompare","Sort Test","Test Description: test sorts offers by price descending order and checks the "
+"passed","Fri Jan 20 14:16:09 GET 2023","Fri Jan 20 14:16:10 GET 2023","1408","Default Suite","project-2","TestClass","TestClass","registerUser","Register User","Test Description: test registers new user"
