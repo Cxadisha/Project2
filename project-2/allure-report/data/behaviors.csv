@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Regression Tests","Search Test","Search with price range","1","0","0","0","0"
+"Regression Tests","Sort Test","Sort price desc and Compare","0","0","1","0","0"
+"Regression Tests","Register Test","Register new user","0","0","1","0","0"

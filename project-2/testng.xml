@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" parallel="tests" thread-count="5">
+
+    <listeners>
+        <listener class-name="ConfigAttachment"></listener>
+    </listeners>
+
+    <test name="FinalTests">
+        <groups>
+            <run>
+                <include name="StartBrowser"/>
+                <include name="Regression1"/>
+                <include name="Regression2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestClass"></class>
+        </classes>
+    </test>
+
+</suite>

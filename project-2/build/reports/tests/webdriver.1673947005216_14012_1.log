@@ -1,0 +1,415 @@
+[1673947005.341][INFO]: Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 57909
+[1673947005.341][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1673947005.544][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\Project2\\project-2\\build\\downloads\\1673947004839_14012_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\Project2\\project-2\\build\\downloads\\1673947004839_14012_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1673947005.549][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Cxadisha\\Desktop\\Automation\\0Projects\\Project2\\project-2\\build\\downloads\\1673947004839_14012_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1673947005.550][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1673947005.552][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Cxadisha\AppData\Local\Temp\scoped_dir13480_843508719" data:,
+[1673947006.234][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1673947006.242][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "108.0.5359.126",
+      "chrome": {
+         "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+         "userDataDir": "C:\\Users\\Cxadisha\\AppData\\Local\\Temp\\scoped_dir13480_843508719"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:14596"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7b4d70c93eed27dd6e2ce93e4c814a6e"
+}
+[1673947006.286][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND SetWindowRect {
+   "height": 1440,
+   "width": 2560
+}
+[1673947006.286][INFO]: Waiting for pending navigations...
+[1673947006.288][INFO]: Done waiting for pending navigations. Status: ok
+[1673947006.412][INFO]: Waiting for pending navigations...
+[1673947006.412][INFO]: Done waiting for pending navigations. Status: ok
+[1673947006.412][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE SetWindowRect {
+   "height": 1171,
+   "width": 2067,
+   "x": 8,
+   "y": 8
+}
+[1673947006.416][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1673947006.416][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE SetTimeouts
+[1673947006.422][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND Navigate {
+   "url": "https://www.swoop.ge/"
+}
+[1673947006.422][INFO]: Waiting for pending navigations...
+[1673947006.422][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.660][INFO]: Waiting for pending navigations...
+[1673947012.663][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.663][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE Navigate
+[1673947012.693][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947012.693][INFO]: Waiting for pending navigations...
+[1673947012.694][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.703][INFO]: Waiting for pending navigations...
+[1673947012.703][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.703][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947012.919][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947012.920][INFO]: Waiting for pending navigations...
+[1673947012.920][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.924][INFO]: Waiting for pending navigations...
+[1673947012.924][INFO]: Done waiting for pending navigations. Status: ok
+[1673947012.924][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947013.141][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947013.141][INFO]: Waiting for pending navigations...
+[1673947013.141][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.145][INFO]: Waiting for pending navigations...
+[1673947013.145][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.145][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947013.360][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947013.360][INFO]: Waiting for pending navigations...
+[1673947013.361][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.364][INFO]: Waiting for pending navigations...
+[1673947013.365][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.365][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947013.583][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947013.583][INFO]: Waiting for pending navigations...
+[1673947013.583][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.587][INFO]: Waiting for pending navigations...
+[1673947013.587][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.587][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947013.792][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947013.792][INFO]: Waiting for pending navigations...
+[1673947013.793][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.796][INFO]: Waiting for pending navigations...
+[1673947013.796][INFO]: Done waiting for pending navigations. Status: ok
+[1673947013.796][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947014.012][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947014.012][INFO]: Waiting for pending navigations...
+[1673947014.013][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.016][INFO]: Waiting for pending navigations...
+[1673947014.016][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.016][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947014.235][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947014.235][INFO]: Waiting for pending navigations...
+[1673947014.235][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.239][INFO]: Waiting for pending navigations...
+[1673947014.239][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.239][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947014.455][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947014.455][INFO]: Waiting for pending navigations...
+[1673947014.456][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.459][INFO]: Waiting for pending navigations...
+[1673947014.459][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.459][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947014.674][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947014.675][INFO]: Waiting for pending navigations...
+[1673947014.675][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.678][INFO]: Waiting for pending navigations...
+[1673947014.679][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.679][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947014.882][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947014.882][INFO]: Waiting for pending navigations...
+[1673947014.882][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.886][INFO]: Waiting for pending navigations...
+[1673947014.886][INFO]: Done waiting for pending navigations. Status: ok
+[1673947014.886][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947015.104][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947015.104][INFO]: Waiting for pending navigations...
+[1673947015.104][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.108][INFO]: Waiting for pending navigations...
+[1673947015.108][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.108][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947015.324][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947015.324][INFO]: Waiting for pending navigations...
+[1673947015.325][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.328][INFO]: Waiting for pending navigations...
+[1673947015.329][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.329][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947015.547][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947015.547][INFO]: Waiting for pending navigations...
+[1673947015.548][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.552][INFO]: Waiting for pending navigations...
+[1673947015.552][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.552][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947015.763][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947015.763][INFO]: Waiting for pending navigations...
+[1673947015.764][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.768][INFO]: Waiting for pending navigations...
+[1673947015.768][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.768][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947015.986][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947015.986][INFO]: Waiting for pending navigations...
+[1673947015.986][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.989][INFO]: Waiting for pending navigations...
+[1673947015.990][INFO]: Done waiting for pending navigations. Status: ok
+[1673947015.990][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947016.205][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947016.205][INFO]: Waiting for pending navigations...
+[1673947016.206][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.210][INFO]: Waiting for pending navigations...
+[1673947016.210][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.210][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947016.426][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947016.426][INFO]: Waiting for pending navigations...
+[1673947016.427][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.430][INFO]: Waiting for pending navigations...
+[1673947016.430][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.430][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947016.646][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947016.646][INFO]: Waiting for pending navigations...
+[1673947016.647][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.650][INFO]: Waiting for pending navigations...
+[1673947016.651][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.651][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947016.865][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947016.865][INFO]: Waiting for pending navigations...
+[1673947016.865][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.869][INFO]: Waiting for pending navigations...
+[1673947016.869][INFO]: Done waiting for pending navigations. Status: ok
+[1673947016.869][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947017.085][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947017.085][INFO]: Waiting for pending navigations...
+[1673947017.086][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.089][INFO]: Waiting for pending navigations...
+[1673947017.089][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.089][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947017.307][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947017.307][INFO]: Waiting for pending navigations...
+[1673947017.307][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.311][INFO]: Waiting for pending navigations...
+[1673947017.312][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.312][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947017.529][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//label[text()='დასვენება']"
+}
+[1673947017.529][INFO]: Waiting for pending navigations...
+[1673947017.529][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.533][INFO]: Waiting for pending navigations...
+[1673947017.533][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.533][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='დასვენება']"}
+  (Session info: chrome=108.0.5359.126)
+[1673947017.741][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1673947017.741][INFO]: Waiting for pending navigations...
+[1673947017.741][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.743][INFO]: Waiting for pending navigations...
+[1673947017.743][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.743][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+[1673947017.745][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] COMMAND Screenshot {
+}
+[1673947017.745][INFO]: Waiting for pending navigations...
+[1673947017.746][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.924][INFO]: Waiting for pending navigations...
+[1673947017.926][INFO]: Done waiting for pending navigations. Status: ok
+[1673947017.926][INFO]: [7b4d70c93eed27dd6e2ce93e4c814a6e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACgUAAAVKCAYAAADD9ul/AAAAAXNSR0IArs4c6QAAIABJREFUeJzs2gENACEQwLDn/Xs+TJAQllbBBGzNzHwAAAAAAAAAAADA8/7bAQAAAAAAAAAAAMAZpkAAAAAAAAAAAACIMAUCAAAAAAAAAABAhCkQAAAAAAAAAAAAIkyBAAAAA..."
